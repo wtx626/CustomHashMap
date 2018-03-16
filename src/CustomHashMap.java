@@ -53,12 +53,12 @@ public class CustomHashMap<K,V> implements CustomMap<K,V>{
         }
         @Override
         public K getKey() {
-            return null;
+            return key;
         }
 
         @Override
         public V getValue() {
-            return null;
+            return value;
         }
 
         @Override
