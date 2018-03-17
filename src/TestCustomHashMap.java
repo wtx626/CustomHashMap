@@ -7,10 +7,10 @@
 public class TestCustomHashMap {
     public static void main(String[] args) {
         CustomHashMap customHashMap=new CustomHashMap<String,String>();
-        for (int i=0;i<10;i++){
+        for (int i=0;i<20;i++){
             customHashMap.put("key"+i,"value"+i);
         }
-        for (int i=0;i<10;i++){
+        for (int i=0;i<20;i++){
             System.out.println(customHashMap.get("key"+i));
         }
     }
